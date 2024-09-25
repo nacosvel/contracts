@@ -1,5 +1,6 @@
 # Nacosvel Contracts
 
+[![package](https://github.com/nacosvel/contracts/actions/workflows/package.yml/badge.svg)](https://github.com/nacosvel/contracts/actions/workflows/package.yml)
 [![GitHub Tag](https://img.shields.io/github/v/tag/nacosvel/contracts)](https://github.com/nacosvel/contracts/tags)
 [![Total Downloads](https://img.shields.io/packagist/dt/nacosvel/contracts?style=flat-square)](https://packagist.org/packages/nacosvel/contracts)
 [![Packagist Version](https://img.shields.io/packagist/v/nacosvel/contracts)](https://packagist.org/packages/nacosvel/contracts)
