@@ -1,0 +1,27 @@
+name: package
+
+on: [ push ]
+
+jobs:
+  sync-package:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        path:
+          - database-manager-contracts
+
+    name: Update ${{ matrix.path }} package
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: nxtlvlsoftware/git-subtree-action@1.1
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          repo: 'nacosvel/${{ matrix.path }}'
+          path: '${{ matrix.path }}'
+          force: true
