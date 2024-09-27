@@ -12,6 +12,7 @@ jobs:
       matrix:
         path:
           - database-manager-contracts
+          - rooster-contracts
 
     name: Update ${{ matrix.path }} package
 
