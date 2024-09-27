@@ -2,3 +2,15 @@
 .editorconfig export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
+
+database-manager-contracts/.github export-ignore
+database-manager-contracts/.editorconfig export-ignore
+database-manager-contracts/.gitattributes export-ignore
+database-manager-contracts/.gitignore export-ignore
+database-manager-contracts/composer.json
+
+rooster-contracts/.github export-ignore
+rooster-contracts/.editorconfig export-ignore
+rooster-contracts/.gitattributes export-ignore
+rooster-contracts/.gitignore export-ignore
+rooster-contracts/composer.json

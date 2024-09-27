@@ -17,11 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nacosvel\\Contracts\\DatabaseManager\\": "database-manager-contracts/"
+            "Nacosvel\\Contracts\\DatabaseManager\\": "database-manager-contracts/",
+            "Nacosvel\\Contracts\\Rooster\\": "rooster-contracts/"
         }
     },
     "replace": {
-        "nacosvel/database-manager-contracts": "self.version"
+        "nacosvel/database-manager-contracts": "self.version",
+        "nacosvel/rooster-contracts": "self.version"
     },
     "extra": {
         "branch-alias": {
