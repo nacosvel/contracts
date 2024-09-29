@@ -2,7 +2,7 @@
 
 namespace Nacosvel\Contracts\Rooster;
 
-class Action
+abstract class Action
 {
     const ACTION_START            = 1;
     const ACTION_END              = 2;
